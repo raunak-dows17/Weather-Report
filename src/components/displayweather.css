@@ -1,0 +1,90 @@
+.displayweather {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    backdrop-filter: blur (50px);
+}
+
+.displayweather > .maincard{
+    width: 50vw;
+    margin-top: 20px;
+    align-self: center;
+    padding: 50px;
+    border-radius: 20px;
+    position: relative;
+    border: 3px solid rgb(8, 60, 138);
+    mix-blend-mode: exclusion;
+}
+
+.displayweather .maincard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+}
+
+.displayweather .maincard .cardsubtitle {
+    position: absolute;
+    left: 10px;
+    color: grey;
+    margin-top: -8px;
+}
+
+.displayweather h1 {
+    font-size: 3rem;
+}
+
+.displayweather .weather-details{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    width: auto;
+}
+
+.displayweather .weather-details span {
+    padding: 10px 0px;
+}
+
+.displayweather .weather-icon {
+    margin: auto;
+    background:rgb(61, 162, 233);
+    border-radius: 50%;
+}
+
+.displayweather .weather-details .weather-main {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.displayweather .weather-details .weather-description{
+    font-size: 1.4rem;
+}
+
+.displayweather .weatherdetails{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    color: whitesmoke;
+}
+
+.displayweather .weatherdetails .section1 {
+    justify-self: center;
+    width: auto;
+}
+
+h4{
+    text-align: left;
+    margin-right: 30%;
+    font-size: 1.2rem;
+}
+
+td{
+    border-bottom: 2px solid grey;
+}
+
+.displayweather .weatherdetails .span {
+    font-size: 1.2rem;
+}
+
