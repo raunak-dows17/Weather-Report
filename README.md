@@ -7,10 +7,8 @@ In my opinion react.js is best library for frontend development.
 # About Project
 
 This project is very simple basic and straight forward.
-and the use is more simple.
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-just go on https://weather-report-007.herokuapp.com/ and get the live weather of your loaction by simply searching it.
+and the use is more simple. 
+Just go on https://weather-report-007.herokuapp.com/ and get the live weather of your loaction by simply searching it.
 ![Screenshot (382)](https://user-images.githubusercontent.com/81477892/175778653-ff6eedf6-8e31-4c69-8d35-d058104bdb76.png)
 ![Screenshot (383)](https://user-images.githubusercontent.com/81477892/175778660-5d023f2a-c506-475a-8f07-9c0a5fb7f063.png)
 
